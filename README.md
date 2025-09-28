@@ -27,9 +27,15 @@ A real-time web app that simulates conversations between multiple AI personaliti
 - **AI Integration**: Custom AI module (Gemini/LLM API)
 
 - How It Works
+- 
 Connection: Frontend connects to backend via Socket.IO
+
 Topic Submission: User enters conversation topic
+
 AI Selection: Backend randomly selects AI personalities
+
 Response Generation: Each AI generates context-aware responses
+
 Real-time Updates: Responses stream to frontend in real-time
+
 Conversation Flow: Alternates between AI personalities until conclusion
