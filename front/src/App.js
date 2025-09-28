@@ -16,6 +16,7 @@ function App() {
         setConversationEnded(false)
         setIsLoading(true)
         socket.emit("startConversation", topic)
+        conversationInput.current.value = ""
     }
 
     async function nextTurn() {
