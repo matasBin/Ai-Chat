@@ -26,8 +26,8 @@ A real-time web app that simulates conversations between multiple AI personaliti
 - **Backend**: Node.js, Express, Socket.IO
 - **AI Integration**: Custom AI module (Gemini/LLM API)
 
-- How It Works
-- 
+How It Works
+  
 Connection: Frontend connects to backend via Socket.IO
 
 Topic Submission: User enters conversation topic
