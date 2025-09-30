@@ -1,6 +1,6 @@
 # AI Conversation Simulator
 
-A real-time web app that simulates conversations between multiple AI personalities on any topic. Watch as different AI personas discuss your chosen topic with unique perspectives!
+A real-time web app that simulates conversations between multiple AI personalities on any topic.
 
 
 ![ai chat demo](https://github.com/user-attachments/assets/73ed4ba0-1735-4f6d-a73e-faff8e17e043)
@@ -8,7 +8,7 @@ A real-time web app that simulates conversations between multiple AI personaliti
 
 ## Features
 
-- 🤖 **5 Distinct AI Personalities**:
+- 🤖 **5 AI Personalities**:
   - Optimist: Finds silver linings
   - Analyst: Data-driven and logical
   - Creative: Innovative perspectives
