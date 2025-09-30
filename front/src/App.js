@@ -19,13 +19,14 @@ function App() {
         conversationInput.current.value = ""
     }
 
-    async function nextTurn() {
+    async function nextTurn() {     /*sends emit to backend to get next ai to respond*/
         if(!conversationEnded) {
             setIsLoading(true)
             socket.emit("next-turn")
         }
     }
 
+    /*mounts when message gets sent*/
     useEffect(() => {
         socket.on("conversationStarted", (data) => {
             console.log(data)
